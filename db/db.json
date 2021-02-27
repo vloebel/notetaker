@@ -1,20 +1,22 @@
-{
-  "notesArray": [
-    {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Test Two",
-      "text": "Test text"
-    },
-    {
-      "title": "Test Three",
-      "text": "Test text"
-    },
-    {
-      "title": "nnnn",
-      "text": "mmmmm"
-    }
-  ]
-}
+[
+  {
+    "title": "Title one",
+    "text": "one-one-one",
+    "id": "0"
+  },
+  {
+    "title": "Title Two",
+    "text": "222222",
+    "id": "1"
+  },
+  {
+    "title": "Title Three",
+    "text": "3333",
+    "id": "2"
+  },
+  {
+    "title": "third note",
+    "text": "three three",
+    "id": 3
+  }
+]
