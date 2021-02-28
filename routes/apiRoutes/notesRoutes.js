@@ -12,6 +12,12 @@ router.get('/notes', (req, res) => {
   res.json(results);
 });
 
+// get by id => delete &&&&&&&&&&
+router.post('/notes/:id', (req, res) => {
+    let results = notesDatabase;
+    const results = deleteNote(req.params.id, notesDatabase);
+    res.json(results);
+});
 
 router.post('/notes', (req, res) => {
   if (!validateNote(req.body)) {
