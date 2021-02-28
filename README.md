@@ -1,9 +1,9 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 ![Header](./Assets/11-Note-taker-header.png)
 ## University of Arizona Bootcamp  
 ### Vicky Loebel - February 28, 2021  
 
-Deployed Application: [vloebel-notes.herokuapp.com](https://vloebel-notes.herokuapp.com/)
+Deployed Application: [vloebel-notes.herokuapp.com](https://vloebel-notes.herokuapp.com/)  
 Github Repository: [github.com/vloebel/notetaker](https://github.com/vloebel/notetaker)  
 
 ## Overview
