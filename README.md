@@ -1,17 +1,18 @@
-# 11 Express.js: Note Taker
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Header](./Assets/11-Note-taker-header.png)
 ## University of Arizona Bootcamp  
 ### Vicky Loebel - February 28, 2021  
 
-GITHUB REPO
-DEPLOYED BACK-END
+Deployed Application: [vloebel-notes.herokuapp.com](https://vloebel-notes.herokuapp.com/)
+Github Repository: [github.com/vloebel/notetaker](https://github.com/vloebel/notetaker)  
 
 ## Overview
 
-Note-taker is a quick and easy application designed to jot notes and save them in a database
+Note-taker is a quick and easy web-based application designed to jot notes and save them in a database.
 
 ## Technical Specification
 
-This is a "vanilla javascript" application that has an HTML interface and uses Express.js as its back-end, and is deployed on Heroku.
+This is a "vanilla javascript" program that has an HTML interface, uses Express.js as its back-end, and is deployed on Heroku.
 
 ## Requirements
   * Retrieve existing notes from a database in the following JSON format:   
@@ -19,7 +20,8 @@ This is a "vanilla javascript" application that has an HTML interface and uses E
         "text": "body of note",  
         "id": "uniqueIdentifier"  
     }
-
+  * Display note titles and allow them to be selected and displayed in the main part of the window
+  * Allow new notes to be entered in the main window and saved.
 ## Mock-Up
 
 The following images show the web application's appearance and functionality: 
@@ -28,4 +30,11 @@ The following images show the web application's appearance and functionality:
 
 ![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
 
+  ## Questions
+  For more information, contact  
+  * [vloebel on GitHub](https://github.com/vloebel)  
+  * [VickyLoebel@gmail.com](mailto:VickyLoebel@gmail.com)
+  ## License
+  This software is distrubted without warranty under the MIT license agreement. To view terms and conditions, visit the [MIT License website](https://opensource.org/licenses/MIT).
+      
 
