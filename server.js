@@ -1,13 +1,14 @@
 const path = require('path');
 const express = require('express');
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
-// parse string or json 
+// parse string in query 
 app.use(express.urlencoded({ extended: true }));
+// parse json in query 
 app.use(express.json());
 
 app.use(express.static('public'));

@@ -2,9 +2,10 @@ const router = require('express').Router();
 const { createNewNote, filterByQuery, validateNote } = require('../../lib/notes');
 const notesDatabase = require('../../db/db.json');
 
+//GET and POST routes for our notes database
+
 router.get('/notes', (req, res) => {
   let results = notesDatabase;
-  console.log("GET NOTES - query is " + JSON.stringify(req.query));
   if (req.query) {
     results = filterByQuery(req.query, results);
   }
